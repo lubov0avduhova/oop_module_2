@@ -1,6 +1,6 @@
-package example.chess_pieces;
+package avduhova.lubov.chess_pieces;
 
-import org.example.ChessBoard;
+import avduhova.lubov.ChessBoard;
 
 public class Bishop extends ChessPiece {
     public Bishop(String color) {
@@ -38,7 +38,6 @@ public class Bishop extends ChessPiece {
         }
         return false;  // Если не выполняется ни одно из условий, ход невозможен
     }
-
 
     @Override
     public String getSymbol() {

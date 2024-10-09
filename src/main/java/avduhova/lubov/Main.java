@@ -1,7 +1,13 @@
-package example;
+package avduhova.lubov;
 
-import org.example.chess_pieces.*;
+import avduhova.lubov.chess_pieces.Bishop;
+import avduhova.lubov.chess_pieces.Horse;
+import avduhova.lubov.chess_pieces.King;
+import avduhova.lubov.chess_pieces.Pawn;
+import avduhova.lubov.chess_pieces.Queen;
+import avduhova.lubov.chess_pieces.Rook;
 
+import java.util.Scanner;
 
 
 public class Main {

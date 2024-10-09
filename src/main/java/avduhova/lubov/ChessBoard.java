@@ -1,8 +1,8 @@
-package example;
+package avduhova.lubov;
 
-import org.example.chess_pieces.ChessPiece;
-import org.example.chess_pieces.King;
-import org.example.chess_pieces.Rook;
+import avduhova.lubov.chess_pieces.ChessPiece;
+import avduhova.lubov.chess_pieces.King;
+import avduhova.lubov.chess_pieces.Rook;
 
 public class ChessBoard {
     public ChessPiece[][] board = new ChessPiece[8][8]; // creating a field for game

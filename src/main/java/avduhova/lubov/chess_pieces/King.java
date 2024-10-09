@@ -1,6 +1,6 @@
-package example.chess_pieces;
+package avduhova.lubov.chess_pieces;
 
-import org.example.ChessBoard;
+import avduhova.lubov.ChessBoard;
 
 public class King extends ChessPiece {
     public King(String color) {

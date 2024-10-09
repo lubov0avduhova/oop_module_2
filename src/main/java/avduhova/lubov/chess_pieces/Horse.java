@@ -1,6 +1,6 @@
-package example.chess_pieces;
+package avduhova.lubov.chess_pieces;
 
-import org.example.ChessBoard;
+import avduhova.lubov.ChessBoard;
 
 public class Horse extends ChessPiece {
     public Horse(String color) {
@@ -36,7 +36,6 @@ public class Horse extends ChessPiece {
         }
         return false; // Если не выполняется ни одно из условий, ход невозможен
     }
-
 
     @Override
     public String getSymbol() {

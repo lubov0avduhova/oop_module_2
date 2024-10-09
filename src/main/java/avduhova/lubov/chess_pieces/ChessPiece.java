@@ -1,6 +1,6 @@
-package example.chess_pieces;
+package avduhova.lubov.chess_pieces;
 
-import org.example.ChessBoard;
+import avduhova.lubov.ChessBoard;
 
 public abstract class ChessPiece {
     private final String color;
@@ -17,7 +17,6 @@ public abstract class ChessPiece {
                                               int toLine, int toColumn);
 
     public abstract String getSymbol();
-
 
     public String getColor() {
         return color;
